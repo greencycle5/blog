@@ -1,10 +1,9 @@
-/* Geral */
+/* Estilos gerais */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #333;
 }
 
 /* Cabeçalho */
@@ -15,81 +14,61 @@ header {
 }
 
 header img {
-    width: 150px;
+    max-width: 150px;
 }
 
-nav ul {
+header nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
 }
 
-nav a {
+header nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-nav a:hover {
+header nav a:hover {
     color: #F0E68C;
 }
 
-/* Blog */
-#blog {
+/* Seções */
+section {
     padding: 40px;
     background-color: #fff;
-    margin: 20px;
-    border-radius: 8px;
-}
-
-h2 {
     text-align: center;
-    font-size: 2em;
+}
+
+h1, h2 {
     color: #3C3C3B;
+    margin-bottom: 20px;
 }
 
-.post {
-    margin: 20px 0;
-    background-color: #E7E7D6;
-    padding: 15px;
-    border-radius: 8px;
+p {
+    color: #666;
+    font-size: 1.1em;
 }
 
-h3 {
-    color: #4CAF50;
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-button {
-    background-color: #7BBF6A;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 10px;
+ul li {
+    margin-bottom: 10px;
 }
 
-button:hover {
-    background-color: #679752;
-}
-
-/* Conteúdo do post */
-.post-content {
-    display: none;
-    margin-top: 15px;
-    background-color: #f1f1f1;
-    padding: 15px;
-    border-radius: 5px;
+ul li strong {
+    color: #7BBF6A;
 }
 
 /* Rodapé */
 footer {
     background-color: #7BBF6A;
-    text-align: center;
     padding: 10px;
-    color: #fff;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    text-align: center;
+    color: white;
+    font-size: 0.9em;
 }
